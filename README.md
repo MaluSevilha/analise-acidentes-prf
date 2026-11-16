@@ -23,12 +23,28 @@ Os cinco arquivos CSV devem permanecer em `dados/brutos/`, com os nomes:
 
 ## Execução
 
-1. Abrir `relatorio.ipynb` no JupyterLab.
-2. Confirmar que a pasta `dados/brutos/` contém os cinco CSVs.
-3. Reiniciar o kernel.
-4. Executar todas as células na ordem.
+O projeto foi validado com:
 
-Bibliotecas principais: `pandas`, `plotnine`, `mizani`, `statsmodels` e `scikit-learn`.
+- Python 3.10.12
+- pandas 2.3.3
+- plotnine 0.15.7
+- mizani 0.14.4
+- statsmodels 0.14.6
+- scikit-learn 1.7.2
+
+Para executar:
+
+1. Manter `relatorio.ipynb` e a pasta `dados/` na estrutura indicada abaixo.
+2. Confirmar que `dados/brutos/` contém os cinco CSVs.
+3. Abrir `relatorio.ipynb` no JupyterLab.
+4. Reiniciar o kernel.
+5. Executar todas as células na ordem.
+
+Caso necessário, instalar as bibliotecas com:
+
+```bash
+python -m pip install pandas plotnine mizani statsmodels scikit-learn jupyterlab
+```
 
 ## Estrutura
 
