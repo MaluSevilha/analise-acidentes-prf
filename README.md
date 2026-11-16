@@ -26,6 +26,8 @@ Os cinco arquivos CSV devem permanecer em `dados/brutos/`, com os nomes:
 O projeto foi validado com:
 
 - Python 3.10.12
+- NumPy 2.2.6
+- SciPy 1.15.3
 - pandas 2.3.3
 - plotnine 0.15.7
 - mizani 0.14.4
